@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/axr/prog/porgramming-systems/RaGsys/RaGsys/RaGsys.csproj": {}
+  },
+  "projects": {
+    "/home/axr/prog/porgramming-systems/RaGsys/RaGlib/RaGlib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/axr/prog/porgramming-systems/RaGsys/RaGlib/RaGlib.csproj",
+        "projectName": "RaGlib",
+        "projectPath": "/home/axr/prog/porgramming-systems/RaGsys/RaGlib/RaGlib.csproj",
+        "packagesPath": "/home/axr/.nuget/packages/",
+        "outputPath": "/home/axr/prog/porgramming-systems/RaGsys/RaGlib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/axr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/axr/prog/porgramming-systems/RaGsys/RaGsys/RaGsys.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/axr/prog/porgramming-systems/RaGsys/RaGsys/RaGsys.csproj",
+        "projectName": "RaGsys",
+        "projectPath": "/home/axr/prog/porgramming-systems/RaGsys/RaGsys/RaGsys.csproj",
+        "packagesPath": "/home/axr/.nuget/packages/",
+        "outputPath": "/home/axr/prog/porgramming-systems/RaGsys/RaGsys/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/axr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/axr/prog/porgramming-systems/RaGsys/RaGlib/RaGlib.csproj": {
+                "projectPath": "/home/axr/prog/porgramming-systems/RaGsys/RaGlib/RaGlib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

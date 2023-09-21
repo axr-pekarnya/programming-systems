@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oYuXJFsZBdx9AzQwzQ5Ic4ZL1ik7FQNc7WtFA7VsP/MUoC8yv7BFivDkk8vzb6UL94HpaSqpUiyMGEPKvKzYNg==",
+  "success": true,
+  "projectFilePath": "/home/axr/prog/porgramming-systems/RaGsys/RaGlib/RaGlib.csproj",
+  "expectedPackageFiles": [
+    "/home/axr/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
