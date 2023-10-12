@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/axr/prog/porgramming-systems/KP/RaGsys.csproj",
-      "projectName": "RaGsys",
-      "projectPath": "/home/axr/prog/porgramming-systems/KP/RaGsys.csproj",
+      "projectUniqueName": "/home/axr/prog/porgramming-systems/KP/InfixToPostfix.csproj",
+      "projectName": "InfixToPostfix",
+      "projectPath": "/home/axr/prog/porgramming-systems/KP/InfixToPostfix.csproj",
       "packagesPath": "/home/axr/.nuget/packages/",
       "outputPath": "/home/axr/prog/porgramming-systems/KP/obj/",
       "projectStyle": "PackageReference",

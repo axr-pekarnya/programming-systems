@@ -84,6 +84,76 @@ namespace RaGsystems {
       for (;;) {
         Dialog();
         switch (Console.ReadLine()) {
+
+            /*case "1.0":
+{
+                var D = new Dictionary<Symbol_Operation, Func<string, int, int, (bool, string)>>() {
+                    {"{a1}", Operations.OperationA},
+                    {"{a2}", Operations.OperationB},
+                    {"{a3}", Operations.OperationC},
+                    {"{a4}", Operations.OperationD},
+                    {"{a5}", Operations.OperationE},
+                    {"{a6}", Operations.OperationF},
+                    {"{a7}", Operations.OperationG},
+                    {"{a8}", Operations.OperationH},
+                };
+
+                var D2 = new Dictionary<Symbol_Operation, Delegate>();
+
+                foreach (var item in D)
+                {
+                    D2.Add(item.Key, item.Value);
+                }
+
+                var automate = new FSAutomateWithOpSymbols(
+                    new List<Symbol>() { "A0" },
+                    new List<Symbol>() { },
+                    new List<Symbol_Operation>() { "{a1}", "{a2}", "{a3}", "{a4}", "{a5}", "{a6}", "{a7}" },
+                    new List<Symbol>() { "qf" },
+                    "A0",
+                    D2
+                );
+
+                Console.WriteLine("Операционные символы:");
+                Console.WriteLine("\t{a1} (\\W) - проверка символа на то, что он не является символом латиницы, цифрой или нижним подчёркиванием");
+                Console.WriteLine("\t{a2} (p) - проверка символа на соответствие символу 'p'");
+                Console.WriteLine("\t{a3} (o) - проверка символа на соответствие символу 'p'");
+                Console.WriteLine("\t{a4} ([#-]) - проверка символа на соответствие символу '#' или '-'");
+                Console.WriteLine("\t{a5} (\\s) - проверка символа на то, что он является пробельным");
+                Console.WriteLine("\t{a6} (\\d) - проверка символа на то, что он является цифрой");
+                Console.WriteLine("\t{a7} ([\\s-]) - проверка символа на то, что он является пробельным или равен '-'");
+                Console.Write("Примечание : Операционные символы имеют параметры, представляющие");
+                Console.WriteLine(" собой пару чисел a, b. Эти числа обозначают собой диапазон кол-ва повторений паттерна.");
+                Console.WriteLine("Пример: набор операционных символов {a1{0, 1}} соответствует паттерну \\W{0, 1}");
+                Console.WriteLine();
+
+                Console.WriteLine("Набор примеров входных цепочек:");
+                Console.WriteLine("bcdrfgth");
+                Console.WriteLine("1237534639");
+                Console.WriteLine("bdfks73h7f");
+                string p = Console.ReadLine();
+
+                Console.WriteLine("Набор примеров операционных символов: ");
+                Console.WriteLine("\t{a1}");
+                Console.WriteLine("\t{a6}");
+                Console.WriteLine("\t{a7}");
+                string s = Console.ReadLine();
+                var x = Regex.Matches(s, @"((\w+)(?:\{([\d,\s]*)\})?)");
+                int i = 0;
+
+                foreach (Match match in x)
+                {
+                    automate.AddRule($"A{i}", match.Value, $"A{i + 1}");
+                    i++;
+                }
+
+                automate.F = new List<Symbol>() { new Symbol($"A{i}") };
+
+                automate.Execute(p);
+                Console.ReadLine();
+            }
+            break;*/
+
           case "1.1": // Pumping lemma
 
             var check_pumping = new Pumping();

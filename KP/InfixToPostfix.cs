@@ -138,7 +138,7 @@
 
                 string postfix = "";
 
-                if (args.Length == 1)
+                if (args.Length == 0)
 
                 {
 
@@ -156,7 +156,7 @@
 
                 {
 
-                    infix = "a+b";
+                    infix = "a+b*c-d";
 
                     convert(ref infix, out postfix);
 

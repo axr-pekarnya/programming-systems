@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WXJuVK6pT2qLXVT6b5djs+RLFNXvZKbsBQfrn/ugeCswIq1KWCxQXSAliNgpvBQG6knokc37gYJ/B1I4BH5Q5w==",
+  "dgSpecHash": "oNfY+Dtyz6rkn/WFXuefAEWIqUkauLYSA2kFf0c3puLL79kCuH8woiE3y/U3fjOtQ83IkKg2kwK+uCgskBu8/A==",
   "success": true,
-  "projectFilePath": "/home/axr/prog/porgramming-systems/KP/RaGsys.csproj",
+  "projectFilePath": "/home/axr/prog/porgramming-systems/KP/InfixToPostfix.csproj",
   "expectedPackageFiles": [
     "/home/axr/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
   ],
