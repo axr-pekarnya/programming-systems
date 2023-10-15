@@ -1,0 +1,11 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Практическая работа №1}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Построение автоматной грамматики}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Построение конечного автомата}{3}{}%
+\contentsline {section}{\numberline {2}Практическая работа №2}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Устранение $\varepsilon $-правил, бесполезных символов и цепных правил из грамматики}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Построение МП-автомата}{7}{}%
+\contentsline {subsection}{\numberline {2.3}Реализация МП-автомата}{7}{}%
+\contentsline {section}{\numberline {3}Построение $LL(K)$-анализатора}{8}{}%
+\contentsline {subsection}{\numberline {3.1}Удаление правого ветвоения из грамматики}{9}{}%
+\contentsline {subsection}{\numberline {3.2}Реализация LL(K)-анализатора}{9}{}%
